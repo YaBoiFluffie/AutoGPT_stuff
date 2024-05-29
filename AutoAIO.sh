@@ -1,6 +1,6 @@
-# sudo apt install python3-dev python3-venv python3-openai
+sudo apt install -y python3.11 python3.11-venv python3.11-dev python3-openai
 mkdir /opt/AUTO_GPT && cd /opt/AUTO_GPT
-# mkdir /opt/python3 && python3 -m venv /opt/python3/bin/activate
+mkdir autogpt && python3.11 -m venv autogpt && source /opt/AUTO_GPT/autogpt/bin/activate
 git clone --recursive https://github.com/Significant-Gravitas/AutoGPT
 git clone --recursive https://github.com/Significant-Gravitas/pr-agent-settings
 git clone --recursive https://github.com/Significant-Gravitas/Auto-GPT-Plugins
